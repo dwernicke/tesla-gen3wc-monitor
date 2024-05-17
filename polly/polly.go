@@ -58,7 +58,7 @@ func Execute() {
 		"my-token",
 		influxdb2.DefaultOptions().SetBatchSize(20),
 	)
-	writeAPI := client.WriteAPI("admin", "admin123")
+	writeAPI := client.WriteAPI("admin", "tesla")
 
 	// The way this is set up, these likely don't get executed on ^C.
 	defer client.Close()

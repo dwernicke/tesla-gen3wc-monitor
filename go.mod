@@ -1,4 +1,4 @@
-module github.com/averysmalldog/tesla-gen3wc-monitor
+module github.com/dwernicke/tesla-gen3wc-monitor
 
 go 1.21.1
 
